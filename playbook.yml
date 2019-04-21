@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  connection: local
+  tasks:
+    - my_sample_module:
+        name: hello
+        email: wor@ld
+    - debug: msg="End"
